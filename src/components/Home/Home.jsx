@@ -1,8 +1,12 @@
+import Banner from "../Banner/Banner";
+import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
+
 const Home = () => {
   return (
     <>
-      <main>
-        <h2>Home Page</h2>
+      <main className="max-w-screen-xl mx-auto p-3">
+        <Banner></Banner>
+        <FeaturedJobs></FeaturedJobs>
       </main>
     </>
   )
